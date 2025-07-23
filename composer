@@ -1,0 +1,3 @@
+to laravel plugin all version run
+composer show plugin_name --all
+example: composer show yajra/laravel-datatables-oracle --all
