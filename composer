@@ -1,3 +1,13 @@
 to laravel plugin all version run
 composer show plugin_name --all
 example: composer show yajra/laravel-datatables-oracle --all
+
+
+for upgradtion
+composer require laravel/jetstream:^4.0 -W
+composer remove fideloper/proxy
+composer remove fruitcake/laravel-cors
+composer require laravel/telescope:^4.12
+composer require fruitcake/laravel-cors:^2.2
+composer require spatie/laravel-permission:^5.11
+composer require spatie/laravel-permission:^5.5
